@@ -1,0 +1,231 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    background-color:#F7F6F2;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.logo{
+    flex: 1;
+    height: 100px;
+}
+.head{
+    flex: 1;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+    flex-basis: 100%;
+}
+#h1{
+    flex: 1;
+    flex-basis: 1200px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: mediumblue;
+}
+span{
+    color: deeppink;
+}
+.heading{
+    flex: 1;
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    color:rgb(90, 22, 22);
+}
+.row1{
+    flex: 1;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    flex-basis: 100%;
+}
+.h2{
+    flex: 1;
+    flex-basis: 250px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 15px;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:900px;
+}
+.price1{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 440px;
+    margin-left: 5px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-top: 3px;
+    font-family: 'Fasthand', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: deeppink;
+}
+.pricetag1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 310px;
+    margin-left: 3px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: x-large;
+    color: mediumblue;
+}
+.pricetag1 div{
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid rgb(90, 22, 22);
+    border-radius: 10px;
+}
+#pp2{
+
+    margin-left: 80px;
+}
+#p2{
+
+    margin-left: 10px;
+}
+.row2{
+    flex: 1;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    flex-basis: 100%;
+}
+.price2{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 440px;
+    margin-left: 5px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-top: 3px;
+    font-family: 'Fasthand', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: deeppink;
+}
+.pricetag2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 377px;
+    margin-left: 3px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: x-large;
+    color: mediumblue;
+}
+.pricetag2 div{
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid rgb(90, 22, 22);
+    border-radius: 10px;
+}
+#pp3{
+    margin-left: 11px;
+}
+.row3{
+    flex: 1;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.price3{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 440px;
+    margin-left: 5px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-top: 3px;
+    font-family: 'Fasthand', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: deeppink;
+}
+.pricetag3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 312px;
+    margin-left: 3px;
+    text-align: left;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: x-large;
+    color: mediumblue;
+}
+.pricetag3 div{
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid rgb(90, 22, 22);
+    border-radius: 10px;
+}
+img{
+    flex: 1;
+    height: 200px;
+    width: 200px;
+}
+#p3{
+
+    margin-left: 7px;
+}
+#p4{
+
+    margin-left: -60px;
+}
+.logo{
+    flex: 1;
+    height: 100px;
+    width: 100px;
+}
+.end{
+    flex: 1;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: deeppink;
+}
+#fo2{
+    flex: 1;
+    text-align: right;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    color: mediumblue;
+}
+/* @media (max-width: 800px) {
+    .page {
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+  } */
+/* @media (max-width: 1250px) {
+    .page {
+      flex-direction: column;
+      height: 100%;
+    }
+  } */
